@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question_text": "Did Mercia Asset Management PLC mention any mergers or acquisitions in the annual report?",
+      "kind": "boolean",
+      "value": "{\n  \"step_by_step_analysis\": \"1. The question asks if Mercia Asset Management PLC mentioned any mergers or acquisitions in the annual report.\\n2. The text retrieved from multiple pages of the report was analyzed for terms related to mergers or acquisitions.\\n3. No explicit mention of mergers or acquisitions was found in the text.\\n4. The report discusses investments, divestitures, and portfolio developments but does not reference any mergers or acquisitions.\",\n  \"reasoning_summary\": \"The annual report does not mention any mergers or acquisitions.\",\n  \"relevant_pages\": [],\n  \"final_answer\": false\n}",
+      "references": [
+        {
+          "pdf_sha1": "ac9aa244462c80705c3ff046542c02c459989742",
+          "page_index": 56
+        },
+        {
+          "pdf_sha1": "ac9aa244462c80705c3ff046542c02c459989742",
+          "page_index": 118
+        }
+      ],
+      "answer_details": {
+        "$ref": "#/answer_details/0"
+      }
+    }
+  ],
+  "answer_details": [
+    {
+      "step_by_step_analysis": "",
+      "reasoning_summary": "",
+      "relevant_pages": [
+        56,
+        118
+      ],
+      "response_data": {
+        "model": "qwen-turbo-latest",
+        "input_tokens": null,
+        "output_tokens": null
+      },
+      "self": "#/answer_details/0"
+    }
+  ],
+  "statistics": {
+    "total_questions": 1,
+    "error_count": 0,
+    "na_count": 0,
+    "success_count": 1
+  }
+}
