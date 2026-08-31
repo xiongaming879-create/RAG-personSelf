@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # 企业知识库 RAG 问答系统
 
-基于 **RAG Challenge 2 竞赛冠军方案**（原作者 [IlyaRice](https://github.com/IlyaRice/RAG-Challenge-2)，[英文解析](https://abdullin.com/ilya/how-to-build-best-rag/)）的个人学习改造版。系统针对公司年度报告 PDF 进行问答，在竞赛中拿下两项大奖，核心组合拳包括：
+针对公司年度报告 PDF 进行问答，核心组合拳包括：
 
 - **Docling 自定义 PDF 解析**（表格序列化处理）
 - **父文档检索**（Parent Document Retrieval）的向量搜索
@@ -11,15 +10,13 @@
 
 ## 免责声明
 
-这是竞赛代码——糙但能用。上手前先看几点：
+上手前先看几点：
 
 - IBM Watson 集成跑不通（竞赛专用，可无视）
 - 代码有毛边和奇怪的 workaround
 - 没有测试，错误处理很少，踩坑自负
 - 需要自备 API Key（OpenAI / Gemini，重排序用 Jina 可选）
-- GPU 对 PDF 解析加速明显（原作者用的 4090）
-
-想要生产级代码的请绕道；想研究各种 RAG 技巧的实现，值得一读。
+- GPU 对 PDF 解析加速明显
 
 ## 快速开始
 
@@ -109,9 +106,6 @@ python main.py process-reports --config ser_tab
 
 更多配置见 `src/pipeline.py`。
 
-## 致谢
-
-原方案出自 IlyaRice 的 [RAG Challenge 2 冠军项目](https://github.com/IlyaRice/RAG-Challenge-2)，感谢开源。
 
 ## License
 
@@ -119,4 +113,4 @@ MIT
 =======
 # RAG-personSelf
 个人rag知识库
->>>>>>> 4b3c83c6a959da9f5826a01e4fdc3e6f009ec14e
+
