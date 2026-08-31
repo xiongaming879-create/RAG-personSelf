@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 企业知识库 RAG 问答系统
 
 基于 **RAG Challenge 2 竞赛冠军方案**（原作者 [IlyaRice](https://github.com/IlyaRice/RAG-Challenge-2)，[英文解析](https://abdullin.com/ilya/how-to-build-best-rag/)）的个人学习改造版。系统针对公司年度报告 PDF 进行问答，在竞赛中拿下两项大奖，核心组合拳包括：
@@ -115,3 +116,7 @@ python main.py process-reports --config ser_tab
 ## License
 
 MIT
+=======
+# RAG-personSelf
+个人rag知识库
+>>>>>>> 4b3c83c6a959da9f5826a01e4fdc3e6f009ec14e
