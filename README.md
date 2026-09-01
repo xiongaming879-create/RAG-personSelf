@@ -22,7 +22,7 @@
 
 ```bash
 git clone <你的仓库地址>
-cd RAG-Challenge-2
+cd RAG-personSelf
 python -m venv venv
 venv\Scripts\Activate.ps1  # Windows (PowerShell)
 pip install -e . -r requirements.txt
