@@ -12,7 +12,7 @@
 
 上手前先看几点：
 
-- IBM Watson 集成跑不通（竞赛专用，可无视）
+- IBM Watson 集成跑不通
 - 代码有毛边和奇怪的 workaround
 - 没有测试，错误处理很少，踩坑自负
 - 需要自备 API Key（OpenAI / Gemini，重排序用 Jina 可选）
@@ -41,7 +41,7 @@ JINA_API_KEY=jina_...     # 可选，LLM 重排序用
 仓库包含两套数据：
 
 1. **小型测试集**（`data/test_set/`）：5 份年报 PDF + 问题，适合快速跑通流程
-2. **完整 ERC2 竞赛数据集**（`data/erc2_set/`）：全部竞赛问题和报告
+2. **完整 ERC2 数据集**（`data/erc2_set/`）：全部问题和报告
 
 每套数据各自带 README 说明，可以用来：
 
@@ -51,7 +51,7 @@ JINA_API_KEY=jina_...     # 可选，LLM 重排序用
 
 详见：
 - `data/test_set/README.md` - 小型测试集说明
-- `data/erc2_set/README.md` - 完整竞赛数据集说明
+- `data/erc2_set/README.md` - 完整数据集说明
 
 ## 使用方法
 
@@ -101,7 +101,7 @@ python main.py process-reports --config ser_tab
 ## 常用配置
 
 - `max_nst_o3m` - 最佳配置，使用 OpenAI o3-mini
-- `ibm_llama70b` - 使用 IBM Llama 70B（竞赛专用，跑不通可无视）
+- `ibm_llama70b` - 使用 IBM Llama 70B（跑不通可无视）
 - `gemini_thinking` - 利用 Gemini 超大上下文窗口全量回答（严格说这不是 RAG）
 
 更多配置见 `src/pipeline.py`。
